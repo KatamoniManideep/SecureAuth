@@ -36,5 +36,5 @@ export const loginUser = async (email:string,password:string)=>{
     }
 
     const token = jwt.sign(payload, process.env.JWT_SECRET as string,{expiresIn:"15m"})
-    return {token}
+    return {token }
 }
