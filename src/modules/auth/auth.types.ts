@@ -9,5 +9,5 @@ export interface User{
 
 export interface JwtPayload {
     userId: string,
-    role: 'role' | 'admin'
+    role: 'user' | 'admin'
 }

@@ -12,6 +12,7 @@
   "type": "commonjs",
   "dependencies": {
     "@types/pg": "^8.16.0",
+    "@types/uuid": "^10.0.0",
     "bcrypt": "^6.0.0",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
